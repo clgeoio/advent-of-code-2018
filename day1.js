@@ -1,3 +1,6 @@
+//Part 1: Find the resultant number of an array numbers when summing them all.
+//Part 2: Find the first number which the accumulator reaches twice
+
 let input = document.body.innerText.split('\n').filter(c=>c).map(Number);
 let p1 = input.reduce((a,c) => a+c);
 let p2 = (input) => {
